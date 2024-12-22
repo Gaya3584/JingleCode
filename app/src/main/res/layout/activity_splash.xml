@@ -1,0 +1,46 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- First Linear Layout for Lottie Animation 1 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/l1"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:lottie_rawRes="@raw/light" />
+    </LinearLayout>
+
+    <!-- Second Linear Layout for Lottie Animation 2 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/l2"
+            android:layout_marginLeft="50dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:lottie_rawRes="@raw/tree" />
+    </LinearLayout>
+
+    <!-- Heading "Jingle Code" under the Tree Animation -->
+    <TextView
+        android:gravity="center"
+        android:id="@+id/jingleCodeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jingle Code"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        android:fontFamily="@font/font2"
+        android:textColor="#FF5722"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:visibility="invisible" />  <!-- Initially hidden for animation -->
+</LinearLayout>

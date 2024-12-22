@@ -13,7 +13,17 @@
         android:theme="@style/Theme.JingleCode"
         tools:targetApi="31">
         <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserActivity"
+            android:exported="false" /> <!-- MainActivity should be exported if needed -->
+        <activity
             android:name=".MainActivity"
+            android:exported="true" /> <!-- Corrected "fasle" to "true" -->
+        <!-- SplashActivity should be exported and has the intent filter for launch -->
+        <activity
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

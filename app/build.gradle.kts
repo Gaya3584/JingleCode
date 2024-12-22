@@ -31,6 +31,10 @@ android {
     }
 }
 
+
+
+
+
 dependencies {
 
     implementation(libs.appcompat)
@@ -40,4 +44,11 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation ("com.airbnb.android:lottie:5.0.3")
+    implementation ("com.google.android.material:material:1.8.0")
+    implementation ("com.google.android.material:material:1.8.0") // Or latest
+    implementation ("androidx.compose.ui:ui-text-google-fonts:1.3.0")  // Required for fonts
+
+
+
 }

@@ -1,0 +1,363 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Timer TextView to show the countdown -->
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Holiday Timer"
+        android:textSize="24sp"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/font4"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="401dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/grad1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="sans-serif"
+                            android:text="Champions keep playing until they get it right"
+                            android:textColor="#000"
+                            android:textSize="15dp"
+                            android:textStyle="italic|bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="55dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="sans-serif"
+                            android:text="- Billie Jean King"
+                            android:textColor="#000"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="151dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="200dp"
+                        android:src="@drawable/img2" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/box"
+                        android:fontFamily="@font/font1"
+                        android:text="Learn More"
+                        android:textColor="#000"
+                        android:textStyle="italic" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="401dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/grad11"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="1dp"
+                            android:fontFamily="sans-serif"
+                            android:text="A healthy outside starts from the inside"
+                            android:textColor="#000"
+                            android:textSize="15dp"
+                            android:textStyle="italic|bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="55dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="sans-serif"
+                            android:text="- Robert Urich"
+                            android:textColor="#000"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="151dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="200dp"
+                        android:src="@drawable/img1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/box"
+                        android:fontFamily="@font/font1"
+                        android:text="Learn More"
+                        android:textColor="#000"
+                        android:textStyle="italic" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="401dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/grad1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="1dp"
+                            android:fontFamily="sans-serif"
+                            android:text="A reader lives a thousand lives before he dies"
+                            android:textColor="#000"
+                            android:textSize="15dp"
+                            android:textStyle="italic|bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="55dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="sans-serif"
+                            android:text="- George R.R. Martin"
+                            android:textColor="#000"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="151dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="200dp"
+                        android:src="@drawable/img3" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/box"
+                        android:fontFamily="@font/font1"
+                        android:text="Learn More"
+                        android:textColor="#000"
+                        android:textStyle="italic" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="401dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/grad11"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="1dp"
+                            android:fontFamily="sans-serif"
+                            android:text="A hobby a day keeps the doldrums away"
+                            android:textColor="#000"
+                            android:textSize="15dp"
+                            android:textStyle="italic|bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="55dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="sans-serif"
+                            android:text="- Phyllis McGinley"
+                            android:textColor="#000"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="151dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="200dp"
+                        android:src="@drawable/img4" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/box"
+                        android:fontFamily="@font/font1"
+                        android:text="Learn More"
+                        android:textColor="#000"
+                        android:textStyle="italic" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="401dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/grad1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="30dp"
+                            android:fontFamily="sans-serif"
+                            android:text="Every great film should seem new every time you watch"
+                            android:textColor="#000"
+                            android:textSize="15dp"
+                            android:textStyle="italic|bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="55dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="sans-serif"
+                            android:text="- Roger Ebert"
+                            android:textColor="#000"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="151dp"
+                        android:layout_height="115dp"
+                        android:layout_marginLeft="200dp"
+                        android:src="@drawable/img5" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/box"
+                        android:fontFamily="@font/font1"
+                        android:text="Learn More"
+                        android:textColor="#000"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    <!-- Title for the activities -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/activitiesTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Your Own Schedule"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:fontFamily="@font/font3"
+            android:layout_marginBottom="20dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_drop_down_24"/>
+    </LinearLayout>
+
+    <!-- Section for adding activities (initially hidden) -->
+    <LinearLayout
+        android:id="@+id/addScheduleSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"> <!-- Hidden by default -->
+
+        <!-- EditText for user to input new activity -->
+        <EditText
+            android:id="@+id/activityInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter activity"
+            android:padding="16dp"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- EditText for user to input activity time -->
+        <EditText
+            android:id="@+id/activityTimeInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter time (HH:MM)"
+            android:padding="16dp"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Button to add the activity to the list -->
+        <Button
+            android:id="@+id/addActivityButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Activity"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+    <!-- List of Activities (as a table) -->
+    <TableLayout
+        android:id="@+id/activitiesList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:stretchColumns="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:padding="16dp">
+
+        <!-- Table Row for activity and time -->
+        <!-- This row will be dynamically added after input -->
+
+    </TableLayout>
+
+
+
+</LinearLayout>
