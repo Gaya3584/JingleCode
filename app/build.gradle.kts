@@ -48,6 +48,8 @@ dependencies {
     implementation ("com.google.android.material:material:1.8.0")
     implementation ("com.google.android.material:material:1.8.0") // Or latest
     implementation ("androidx.compose.ui:ui-text-google-fonts:1.3.0")  // Required for fonts
+    implementation ("com.android.volley:volley:1.2.1")
+
 
 
 
