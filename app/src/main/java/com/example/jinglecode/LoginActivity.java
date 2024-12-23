@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
                 // Check credentials
                 if (s1.equals("admin") && s2.equals("1234")) {
                     // If credentials are correct, navigate to UserActivity
-                    Intent i = new Intent(getApplicationContext(), UserActivity.class);
+                    Intent i = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(i);
                     finish(); // Close LoginActivity
                 } else {
